@@ -5,7 +5,7 @@
 ![Visualization](https://img.shields.io/badge/Visualization-PowerBI-yellow)
 ![Project](https://img.shields.io/badge/Project-Data%20Engineering-brightgreen)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
-![Rows](https://img.shields.io/badge/Rows-375K%20→%206.3K-blueviolet)
+![Rows](https://img.shields.io/badge/Rows-445K%20→%206.3K-blueviolet)
 
 ---
 
@@ -50,7 +50,7 @@ MySQL Database → Spoon (ETL) → MySQL (Transformation) → SQL Views → Powe
 
 ### 🔹 3. Data Transformation (MySQL)
 
-* Initial dataset: ~375,000 rows
+* Initial dataset: ~445,000 rows
 * Applied aggregation to optimize performance
 * Final dataset: **6,324 rows**
 
@@ -127,10 +127,7 @@ flight-data-engineering-pipeline/
 │
 ├── README.md
 ├── sql/
-│   ├── 01_create_tables.sql
-│   ├── 02_data_loading_notes.sql
-│   ├── 03_transformations.sql
-│   ├── 04_views.sql
+│   ├── complete_data_pipeline.sql
 │
 ├── etl/
 │   └── spoon_transformation.ktr
