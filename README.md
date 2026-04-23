@@ -44,7 +44,9 @@ MySQL Database → Spoon (ETL) → MySQL (Transformation) → SQL Views → Powe
   * Delay metrics
 * Structured dataset for analytical use
 
-📄 Detailed process → `docs/data_cleaning.md`
+📸 **Spoon Transformation Preview**
+
+![Spoon Transformation](images/spoon_transformation.png)
 
 ---
 
@@ -96,19 +98,36 @@ GROUP BY year, month, uniquecarrier, origin, dest
 
 ## 📊 Dashboard Preview
 
-> *(Add screenshots in `/images` folder and link here)*
+### 🟦 Overview Dashboard
 
-```markdown
-![Dashboard](images/dashboard1.png)
-```
+![Overview Dashboard](images/overview.png)
+
+---
+
+### 🟩 Airline Performance Dashboard
+
+![Airline Performance](images/airline_performance.png)
+
+---
+
+### 🟨 Route Analysis Dashboard
+
+![Route Analysis](images/route_analysis.png)
+
+---
+
+### 🟥 Delay Analysis Dashboard
+
+![Delay Analysis](images/delay_analysis.png)
 
 ---
 
 ## 📈 Key Insights
 
-* Identified delay trends across airlines and routes
+* Identified high-delay airlines and performance gaps
 * Analyzed impact of Weather, NAS, and Late Aircraft delays
 * Highlighted high-traffic and high-delay routes
+* Compared airline efficiency using delay vs volume analysis
 
 ---
 
@@ -136,7 +155,11 @@ flight-data-engineering-pipeline/
 │   └── dashboard.pbix
 │
 ├── images/
-│   └── dashboard.png
+│   ├── overview.png
+│   ├── airline_performance.png
+│   ├── route_analysis.png
+│   ├── delay_analysis.png
+│   └── spoon_transformation.png
 │
 └── docs/
     ├── data_cleaning.md
@@ -158,6 +181,7 @@ Credentials and direct access details are not included for security reasons.
 * Designing efficient ETL pipelines
 * Optimizing data for BI tools
 * Building reusable analytical views
+* Creating business-focused dashboards from raw data
 
 ---
 
@@ -166,6 +190,7 @@ Credentials and direct access details are not included for security reasons.
 * Automate pipeline scheduling
 * Implement incremental data loading
 * Migrate pipeline to cloud platforms (AWS / Azure)
+* Add predictive analytics for delay forecasting
 
 ---
 
