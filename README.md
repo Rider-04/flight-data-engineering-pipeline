@@ -145,14 +145,18 @@ GROUP BY year, month, uniquecarrier, origin, dest
 flight-data-engineering-pipeline/
 │
 ├── README.md
+│
 ├── sql/
-│   ├── complete_data_pipeline.sql
+│   └── complete_data_pipeline.sql
 │
 ├── etl/
 │   └── spoon_transformation.ktr
 │
 ├── powerbi/
 │   └── dashboard.pbix
+│
+├── presentation/
+│   └── flight_data_pipeline_presentation.pptx
 │
 ├── images/
 │   ├── overview.png
